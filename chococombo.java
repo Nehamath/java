@@ -1,0 +1,18 @@
+class book
+{
+public static void main(String[] bok)
+{
+books ref=new books();
+String f1=ref.type;
+System.out.println(f1);
+double f2=ref.price;
+System.out.println(f2); 
+String f3=ref.author;
+System.out.println(f3); 
+
+booksref.type="Short stories";
+ type=booksref.type;
+System.out.println(type);
+
+}
+}
